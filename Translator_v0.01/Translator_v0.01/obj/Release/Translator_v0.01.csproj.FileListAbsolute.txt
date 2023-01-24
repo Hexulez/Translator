@@ -1,0 +1,10 @@
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Release\Translator_v0.01.csproj.CoreCompileInputs.cache
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\Translator_v0.01.exe.config
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\Translator_v0.01.exe
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\Translator_v0.01.pdb
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\InputSimulatorStandard.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\Newtonsoft.Json.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Release\Newtonsoft.Json.xml
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Release\Translator_v0.01.csproj.CopyComplete
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Release\Translator_v0.01.exe
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Release\Translator_v0.01.pdb

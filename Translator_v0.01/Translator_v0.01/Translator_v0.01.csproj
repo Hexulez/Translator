@@ -67,7 +67,6 @@
     <Compile Include="Settings.cs" />
     <Compile Include="TEXT_COPY.cs" />
     <Compile Include="TEXT_REPLACE.cs" />
-    <Compile Include="Variables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

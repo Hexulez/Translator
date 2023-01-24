@@ -47,18 +47,9 @@ namespace Translator_v0._01
             {
                 int vkCode = Marshal.ReadInt32(lParam);
                 Handler.Handle(((Keys)vkCode).ToString()); //call handler
-                /*
-                if (((Keys)vkCode).ToString() == "RETURN")
-                {
-                    //Here feed string...
-                }
-                else
-                {
-                    
-                }
-                */
+                
                 //Console.WriteLine((Keys)vkCode);
-                File.AppendAllText("keylog.txt", ((Keys)vkCode).ToString() + Environment.NewLine);
+                //File.AppendAllText("keylog.txt", ((Keys)vkCode).ToString() + Environment.NewLine);
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }

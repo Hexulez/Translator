@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Translator_v0.01",
+    "\\Translator_v0.01\\Translator_v0.01",
+    "\\Translator_v0.01\\Translator_v0.01\\Properties"
   ],
-  "SelectedNode": "\\C:\\Users\\Hexulez\\Source\\Repos\\Translator",
+  "SelectedNode": "\\Translator_v0.01\\Translator_v0.01\\Translator_v0.01.csproj",
   "PreviewInSolutionExplorer": false
 }
