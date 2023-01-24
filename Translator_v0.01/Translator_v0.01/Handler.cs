@@ -55,7 +55,7 @@ namespace Translator_v0._01
             }
             else if (choice.Substring(0, 3) == "lan")
             {
-                Console.WriteLine("paska");
+                Console.WriteLine("testi");
                 string change = choice.Substring(4);
                 Console.WriteLine (change);
                 Properties.Settings.Default.Translator_language  = change;
