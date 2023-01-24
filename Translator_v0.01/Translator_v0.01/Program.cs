@@ -13,7 +13,7 @@ namespace Translator_v0._01
         [STAThread]
         static void Main(string[] args)
         {
-            Properties.Settings.Default.Save();
+           
 
 
             starter();

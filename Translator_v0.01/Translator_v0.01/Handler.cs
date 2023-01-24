@@ -14,15 +14,16 @@ namespace Translator_v0._01
     {
         static string tester = "";
         static string API = "";
-        static string language = Variables.Language;
+        static string language = Properties.Settings.Default.Translator_language;
         private static void caller(string feed, string language)
         {
-            Console.WriteLine(Variables.Language);
+            //Console.WriteLine(language);
             //string language = "";
             tester = feed;
             //FeedControl.CheckFeed(feed);
             if (feed == "F8")
             {
+                language = Properties.Settings.Default.Translator_language;
                 language = "Translate to " + language + ": ";
                 FeedControl.TranslateAsync(language, true);
             }
@@ -36,6 +37,7 @@ namespace Translator_v0._01
             else if (feed == "F9")
             {
                 string choice = OPTIONS.Settings();
+                CheckOptions(choice);
             }
         }
         
@@ -53,8 +55,11 @@ namespace Translator_v0._01
             }
             else if (choice.Substring(0, 3) == "lan")
             {
-                language = choice.Substring(3);
-                Variables.Language = language;
+                Console.WriteLine("paska");
+                string change = choice.Substring(4);
+                Console.WriteLine (change);
+                Properties.Settings.Default.Translator_language  = change;
+                Properties.Settings.Default.Save();
             }
             else if (choice.Substring(0, 3) == "API")
             {
