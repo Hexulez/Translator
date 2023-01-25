@@ -2,7 +2,7 @@
 Translator what uses GPT-3
 
 
-before start using:
+before start using: \n
 You must get GPT-3 API key from www.openai.com.
 must copy to console that key when it ask it.
 Usage:
