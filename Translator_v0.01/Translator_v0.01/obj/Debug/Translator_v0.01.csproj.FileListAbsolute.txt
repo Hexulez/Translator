@@ -13,9 +13,12 @@ C:\Users\Hexulez\source\repos\Ohjelmistokehittaja\temp\Translator_v0.01\Translat
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\Translator_v0.01.exe.config
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\Translator_v0.01.exe
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\Translator_v0.01.pdb
-C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\InputSimulatorStandard.dll
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\System.Buffers.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\System.Memory.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\bin\Debug\InputSimulatorStandard.dll
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Debug\Translator_v0.01.csproj.AssemblyReference.cache
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Debug\Translator_v0.01.csproj.SuggestedBindingRedirects.cache
 C:\Users\Hexulez\source\repos\Translator\Translator_v0.01\Translator_v0.01\obj\Debug\Translator_v0.01.csproj.CoreCompileInputs.cache

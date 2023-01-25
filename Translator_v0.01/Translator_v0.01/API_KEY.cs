@@ -19,7 +19,7 @@ namespace Translator_v0._01
                 while (true)
                 {
 
-                    Console.WriteLine("Anna OpenAI API-key");
+                    Console.WriteLine("Give OpenAI API-key");
                     string apiKey = Console.ReadLine();
                     if (apiKey != "" && apiKey.Length > 8)
                     {
@@ -43,7 +43,11 @@ namespace Translator_v0._01
         {
             System.Environment.SetEnvironmentVariable("OPENAI_API_KEY", apiKey, EnvironmentVariableTarget.User);
             Console.WriteLine("Thanks");
-        }  
-        
+        }
+
+        internal static void RemoveAPI()
+        {
+            System.Environment.SetEnvironmentVariable("OPENAI_API_KEY", null, EnvironmentVariableTarget.User);
+        }
     }
 }

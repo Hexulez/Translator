@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Translator_v0.01")]
-[assembly: AssemblyCopyright("Copyright ©  2023")]
+[assembly: AssemblyCopyright("Copyright ©  2023 Henry Juhola")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

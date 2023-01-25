@@ -33,7 +33,8 @@ namespace Translator_v0._01
         {
             Console.WriteLine("1. Change language");
             Console.WriteLine("2. Change API-Key");
-            Console.WriteLine("3. Exit");
+            Console.WriteLine("3. Delete API-Key");
+            Console.WriteLine("4. Exit");
             return;
         }
 
@@ -54,6 +55,12 @@ namespace Translator_v0._01
                 Console.WriteLine("Give new API-Key");
                 Console.ReadLine();
                 return "API " +choice;
+            }
+            else if (luku == "3")
+            {
+                API_KEY.RemoveAPI();
+                Console.WriteLine("API removed!");
+                return "exit";
             }
             else
             {

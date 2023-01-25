@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "YTkfSK1IQyATMP0xv6p0/U8BX1oAjr9c6+QrCVsrdv/Dd3paftOMHiXNh8OWMDQl7VnRKcJL7V1FGJSVDbOydg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Hexulez\\source\\repos\\Translator\\Translator_v0.01\\Translator_v0.01\\Translator_v0.01.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Hexulez\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\Hexulez\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Hexulez\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Hexulez\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Hexulez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
