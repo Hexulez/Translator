@@ -10,32 +10,34 @@ using System.Xml.Linq;
 
 namespace Translator_v0._01
 {
+//handle different key press
     internal static class Handler
     {
         static string tester = "";
         static string API = "";
-        static string language = Properties.Settings.Default.Translator_language;
-        private static void caller(string feed, string language)
+        static string language = Properties.Settings.Default.Translator_language; //get  preset language 
+
+        private static void caller(string feed, string language) //call the feedcontrol
         {
-            //Console.WriteLine(language);
-            //string language = "";
+            
             tester = feed;
-            //FeedControl.CheckFeed(feed);
-            if (feed == "F8")
+            
+            if (feed == "F8") //after this choice: copy text and paste new text as chosen language
             {
-                language = Properties.Settings.Default.Translator_language;
+                language = Properties.Settings.Default.Translator_language; //get preset language
                 language = "Translate to " + language + ": ";
-                FeedControl.TranslateAsync(language, true);
+                FeedControl.TranslateAsync(language, true); //call feedcontrol what is control of text what must translate.
             }
-            else if (feed == "F7")
+            else if (feed == "F7") // after this choice: translate to console window
             {
                 
                 language = "Translate to finnish: ";
-                FeedControl.TranslateAsync(language, false);
-                //FOCUS.FocusProcess("Translator_v0.01");
+                FeedControl.TranslateAsync(language, false); //call feedcontrol what is control of text what must translate.
+                
             }
-            else if (feed == "F9")
+            else if (feed == "F9") //after this choice: going to options
             {
+
                 string choice = OPTIONS.Settings();
                 CheckOptions(choice);
             }
@@ -47,7 +49,7 @@ namespace Translator_v0._01
             caller(feed, language);
         }
 
-        internal static void CheckOptions (string choice) 
+        internal static void CheckOptions (string choice)  //handle answer from options. 
         {
             if (choice == "")
             {

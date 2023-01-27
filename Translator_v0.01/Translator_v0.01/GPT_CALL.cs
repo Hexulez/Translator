@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace gpt_3_example_v0._3
 {
+//Make GPT-3 Call
     internal class GPT_CALL
     {
         internal static string Call_GPT(string prompt)

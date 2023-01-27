@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Translator_v0._01
 {
+//focus console screen
     internal class FOCUS
     {
         [DllImport("user32.dll")]

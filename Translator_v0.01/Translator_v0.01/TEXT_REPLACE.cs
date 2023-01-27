@@ -9,7 +9,8 @@ using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
 namespace Translator_v0._01
-{
+{ 
+//replace user text
     internal class TEXT_REPLACE
     {
         internal static void Replace(string sentence)

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Translator_v0._01
 {
+//control and handle user feed
     public static class FeedControl
     {
         //private static bool all = false;        
@@ -27,8 +28,7 @@ namespace Translator_v0._01
             await TEXT_COPY.CopyText(all);
             sentence = (language + Clipboard.GetText());
             string answer = GPT_CALL.Call_GPT(sentence);
-            //Console.WriteLine(Sentence);
-            //Console.WriteLine(answer);
+            
             
             sentence = "";
             if (all == false)

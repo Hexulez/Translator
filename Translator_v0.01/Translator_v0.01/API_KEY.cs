@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Translator_v0._01
 {
+    //handle API_Key
     internal class API_KEY
     {
-        
+        //check if there is API-Key all ready
         internal static async Task CheckAPI()
         {
-            //Console.WriteLine(System.Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User));
-
+            
             if (System.Environment.GetEnvironmentVariable("OPENAI_API_KEY", EnvironmentVariableTarget.User) == null)
             {
                 while (true)
@@ -38,13 +38,15 @@ namespace Translator_v0._01
 
             
         }
-                
-        internal static void ChangeAPI(string apiKey)
+        
+        //change API-Key
+        internal static void ChangeAPI(string apiKey) 
         {
             System.Environment.SetEnvironmentVariable("OPENAI_API_KEY", apiKey, EnvironmentVariableTarget.User);
             Console.WriteLine("Thanks");
         }
 
+        //remove API-Key
         internal static void RemoveAPI()
         {
             System.Environment.SetEnvironmentVariable("OPENAI_API_KEY", null, EnvironmentVariableTarget.User);

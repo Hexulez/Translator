@@ -8,6 +8,7 @@ using System.Windows.Forms;
 
 namespace Translator_v0._01
 {
+//listening the keyboard
     internal class KeyHook
     {
         private const int WH_KEYBOARD_LL = 13;
@@ -15,7 +16,7 @@ namespace Translator_v0._01
         private static LowLevelKeyboardProc _proc = HookCallback;
         private static IntPtr _hookID = IntPtr.Zero;
 
-
+        
 
         internal static void Hooker()
         {
@@ -48,8 +49,7 @@ namespace Translator_v0._01
                 int vkCode = Marshal.ReadInt32(lParam);
                 Handler.Handle(((Keys)vkCode).ToString()); //call handler
                 
-                //Console.WriteLine((Keys)vkCode);
-                //File.AppendAllText("keylog.txt", ((Keys)vkCode).ToString() + Environment.NewLine);
+                
             }
             return CallNextHookEx(_hookID, nCode, wParam, lParam);
         }

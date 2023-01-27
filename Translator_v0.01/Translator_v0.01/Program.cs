@@ -14,6 +14,8 @@ namespace Translator_v0._01
         static void Main(string[] args)
         {
 
+            //this is just a start
+
             Console.WriteLine("This app is made by Henry Juhola <3");
             Console.WriteLine("Press F8 to translate text you already write");
             Console.WriteLine("Press F9 to settings");
@@ -25,10 +27,12 @@ namespace Translator_v0._01
 
         }
 
+
+        
         static async void starter()
         {
-            await API_KEY.CheckAPI();
-            KeyHook.Hooker();
+            await API_KEY.CheckAPI(); //check if there is API-key
+            KeyHook.Hooker();  //start listening keyboard
         }
     }
 }

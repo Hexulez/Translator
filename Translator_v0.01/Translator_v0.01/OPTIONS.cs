@@ -7,8 +7,11 @@ using System.Windows.Forms;
 
 namespace Translator_v0._01
 {
+//Make options to program
     internal class OPTIONS
     {
+
+        
         internal static string Settings()
         {
             FOCUS.FocusProcess("Translator_v0.01");

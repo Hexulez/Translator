@@ -9,6 +9,7 @@ using System.Windows.Forms;
 
 namespace Translator_v0._01
 {
+//copy user text
     internal class TEXT_COPY
     {
         internal static async Task CopyText(bool all)
@@ -16,7 +17,7 @@ namespace Translator_v0._01
             InputSimulator sim = new InputSimulator();
             sim.Keyboard.KeyDown(VirtualKeyCode.CONTROL);
             await Task.Delay(1);
-            if (all)
+            if (all) //if want to select all before copy 
             {
                 sim.Keyboard.KeyPress(VirtualKeyCode.VK_A);
                 await Task.Delay(1);
